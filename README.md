@@ -24,4 +24,8 @@ flask --app app run
 
 ## Development
 
-Submit your pull requests and we'll take a look. You can also reach us at admin@acm.usu.edu
+Submit your pull requests and we'll take a look! You can also reach us at admin@acm.usu.edu.
+
+Please keep in mind the following guidelines:
+- Use `templates/empty-activity.html` as a template for new activity entries.
+- Strip your images of metadata with `magick mogrify -strip FILENAME`.
